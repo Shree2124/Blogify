@@ -42,9 +42,9 @@ function Login() {
       <Box sx={{ textAlign: "center", mb: 2 }}>
         <Box
           component="img"
-          src="/logo.png" 
+          src="/blog.svg" 
           alt="Logo"
-          sx={{ width: 100, mx: "auto" }}
+          sx={{ width: 70, mx: "auto" }}
         />
         <Typography variant="h6" color="textSecondary">
           Welcome Back!

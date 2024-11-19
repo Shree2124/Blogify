@@ -51,9 +51,9 @@ function Signup() {
       <Box sx={{ textAlign: "center", mb: 2 }}>
         <Box
           component="img"
-          src="/logo.png" // Update with the correct path for your logo
+          src="/blog.svg" 
           alt="Logo"
-          sx={{ width: 100, mx: "auto" }}
+          sx={{ width: 70, mx: "auto" }}
         />
         <Typography variant="h5" fontWeight="bold" sx={{ mt: 2 }}>
           Sign up to create an account
