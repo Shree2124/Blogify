@@ -10,7 +10,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
     <div
       className="w-full"
       style={{
-        marginBottom: theme.spacing(2), // Consistent spacing between components
+        marginBottom: theme.spacing(2),
       }}
     >
       {label && (
@@ -19,7 +19,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
           style={{
             fontSize: "0.9rem",
             fontWeight: 500,
-            color: theme.palette.text.primary, // Themed text color
+            color: theme.palette.text.primary,
           }}
         >
           {label}
@@ -48,10 +48,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
                   font-family: ${theme.typography.fontFamily}, sans-serif;
                   font-size: ${theme.typography.fontSize}px;
                   color: ${theme.palette.text.primary};
-                  background-color: ${theme.palette.background.default};
                 }
-                a { color: ${theme.palette.primary.main}; }
-                blockquote { color: ${theme.palette.text.secondary}; }
               `,
             }}
             onEditorChange={onChange}
