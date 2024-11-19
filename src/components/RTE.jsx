@@ -48,6 +48,7 @@ export default function RTE({ name, control, label, defaultValue = "" }) {
                   font-family: ${theme.typography.fontFamily}, sans-serif;
                   font-size: ${theme.typography.fontSize}px;
                   color: ${theme.palette.text.primary};
+                  background-color: ${theme.palette.background.paper};
                 }
               `,
             }}
